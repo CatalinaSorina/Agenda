@@ -1,0 +1,56 @@
+a {
+	color: #282c34;
+	font: 2rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	background-color: lightgreen;
+	padding: 0.5rem;
+	margin-left: 0.5rem;
+	border-radius: 0 0 0.8rem 0.8rem;
+}
+a:active {
+	color: orange;
+}
+a:hover {
+	color: orangered;
+}
+
+.FriendList {
+	border: 0.15rem solid black;
+	background: white;
+	font: 1.5rem Courier;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.Friend {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 0.3rem 0.2rem orange;
+	font: 1rem Courier;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.Friend label,
+.Friend input {
+	font: inherit;
+	text-align: center;
+	background: transparent;
+	border: none;
+}
+
+.modifyButton,
+.deleteButton {
+	padding: 0.3rem;
+	border-radius: 50%;
+	color: white;
+	outline: none;
+}
+
+.modifyButton {
+	background: orange;
+}
+
+.deleteButton {
+	background: red;
+}
