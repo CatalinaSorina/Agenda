@@ -1,3 +1,3 @@
 # Agenda
 Create your contact list.  
-React app with ajax(get, post, delete, put).
+React app with axios(get, post, delete, put).
